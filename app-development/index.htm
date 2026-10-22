@@ -3818,8 +3818,10 @@
 																	data-settings="{&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;button_width&quot;:&quot;100&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
 																	data-widget_type="form.default">
 																	<div class="elementor-widget-container">
-																		<form class="elementor-form" method="post"
+																		<form class="elementor-form" action="https://api.web3forms.com/submit" method="POST"
 																			name="New Form" aria-label="New Form">
+																			<input type="hidden" name="access_key" value="916542d7-9daa-45b5-b6d7-b2640871d921"><input type="hidden" name="redirect" value="https://asti009.github.io/shiksha_infotech/thank-you/">
+																			<input type="hidden" name="subject" value="New App Development Inquiry - Shiksha Infotech"><input type="hidden" name="from_name" value="Shiksha Infotech Website"><input type="hidden" name="replyto" value="form_fields[form_free_email]">
 																			<input type="hidden" name="post_id"
 																				value="2055">
 																			<input type="hidden" name="form_id"
@@ -3835,7 +3837,7 @@
 																				<div
 																					class="elementor-field-type-text elementor-field-group elementor-column elementor-field-group-name elementor-col-50 elementor-field-required">
 																					<input size="1" type="text"
-																						name="form_fields[name]"
+																						name="Name"
 																						id="form-field-name"
 																						class="elementor-field elementor-size-sm  elementor-field-textual"
 																						placeholder="Your name"
@@ -3844,7 +3846,7 @@
 																				<div
 																					class="elementor-field-type-email elementor-field-group elementor-column elementor-field-group-email elementor-col-50 elementor-field-required">
 																					<input size="1" type="email"
-																						name="form_fields[email]"
+																						name="Email"
 																						id="form-field-email"
 																						class="elementor-field elementor-size-sm  elementor-field-textual"
 																						placeholder="Email address"
@@ -3853,7 +3855,7 @@
 																				<div
 																					class="elementor-field-type-tel elementor-field-group elementor-column elementor-field-group-field_ade478b elementor-col-50 elementor-field-required">
 																					<input size="1" type="tel"
-																						name="form_fields[field_ade478b]"
+																						name="Phone"
 																						id="form-field-field_ade478b"
 																						class="elementor-field elementor-size-sm  elementor-field-textual"
 																						placeholder="Phone number"
@@ -3872,7 +3874,7 @@
 																								class="eicon-caret-down"></i>
 																						</div>
 																						<select
-																							name="form_fields[field_40cefed]"
+																							name="Budget"
 																							id="form-field-field_40cefed"
 																							class="elementor-field-textual elementor-size-sm"
 																							required="required">
@@ -3897,7 +3899,7 @@
 																					class="elementor-field-type-textarea elementor-field-group elementor-column elementor-field-group-message elementor-col-100">
 																					<textarea
 																						class="elementor-field-textual elementor-field  elementor-size-sm"
-																						name="form_fields[message]"
+																						name="Message"
 																						id="form-field-message" rows="4"
 																						placeholder="Message"></textarea>
 																				</div>
@@ -3908,7 +3910,7 @@
 																						<span
 																							class="elementor-field-option">
 																							<input type="checkbox"
-																								name="form_fields[field_8087b11]"
+																								name="Agree to Terms"
 																								id="form-field-field_8087b11"
 																								class="elementor-field elementor-size-sm  elementor-acceptance-field">
 																							<label
